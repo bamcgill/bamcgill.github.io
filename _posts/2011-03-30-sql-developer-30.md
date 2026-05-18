@@ -5,7 +5,7 @@ last_modified_at: 2011-03-30 08:33:05 +0000
 tags:
   - new
   - Migration Workbench SQL Developer
-  - 3.0
+  - "3.0"
 ---
 
 Last night we released [SQL Developer 3.0](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html). This has been a large release with a lot of new base [features](http://www.oracle.com/technetwork/developer-tools/sql-developer/rel3-featurelist-ea-189447.html) and new extensions. At a high level, these are the features added.

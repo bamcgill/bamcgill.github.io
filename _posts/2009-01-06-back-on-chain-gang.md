@@ -4,8 +4,8 @@ date: 2009-01-06 09:33:00 +0000
 last_modified_at: 2009-01-06 09:44:15 +0000
 tags:
   - Oracle Develop
-  - 1.5.3
-  - 1.5.4
+  - "1.5.3"
+  - "1.5.4"
   - SQL Developer
 ---
 

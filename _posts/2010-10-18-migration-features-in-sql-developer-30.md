@@ -3,7 +3,7 @@ title: "Migration Features in SQL Developer 3.0"
 date: 2010-10-18 19:34:00 +0000
 last_modified_at: 2010-10-18 21:14:22 +0000
 tags:
-  - 3.0
+  - "3.0"
   - Migration
   - SQL Developer
 ---

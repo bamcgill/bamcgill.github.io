@@ -5,7 +5,7 @@ last_modified_at: 2011-10-11 10:30:22 +0000
 tags:
   - EA
   - SQL Developer
-  - 3.1
+  - "3.1"
 ---
 
 [SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html) 3.1 EA is now available for download [here](http://www.oracle.com/technetwork/developer-tools/sql-developer/sqldev-ea-download-486950.html).   Have a look and try out several of the new features introduced as part of this release.  We have done a lot of work around adding DBA functionality for RMAN, Datapump and other features and vastly improved Database Diff, Database Copy and Database Export.   
