@@ -1,0 +1,92 @@
+# Site Settings
+title: "Barry McGillin"
+subtitle: "Oracle Database Tools & Beyond"
+name: "Barry McGillin"
+description: "Oracle Database Tools — SQLcl, SQL Developer, ORDS, and more."
+url: "https://bamcgill.github.io"
+baseurl: ""
+repository: "bamcgill/bamcgill.github.io"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "dark"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:title/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+# Author
+author:
+  name: "Barry McGillin"
+  bio: "Director of Development at Oracle. Building SQLcl, SQL Developer, ORDS & SQL Developer for VS Code. Based in Omagh, Northern Ireland."
+  avatar: "/assets/images/avatar.jpg"
+  location: "Omagh, Northern Ireland"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bamcgill"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/barrymcgillin"
+    - label: "Blogspot (Archive)"
+      icon: "fab fa-fw fa-blogger"
+      url: "https://barrymcgillin.blogspot.com"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bamcgill"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/barrymcgillin"
+
+# Reading Files
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      show_date: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Encoding
+encoding: "utf-8"
